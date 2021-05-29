@@ -36,7 +36,7 @@ export class AppComponent {
     }
   }
   selectedItem(item: any){
-    this.searchText = item.model;
+    this.searchText = item.name;
     this.suggestions = [];
     if(item){
       this.api.getcompany(item.id).subscribe(
