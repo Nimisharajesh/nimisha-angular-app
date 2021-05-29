@@ -1,1 +1,2 @@
-# nimisha-angular-app
+# javascript-project
+For Learning Purpose
